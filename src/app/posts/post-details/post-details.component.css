@@ -1,0 +1,11 @@
+
+.postdetalle{
+    width: 100%;
+    padding: 8px;
+    background: rgb(3, 3, 3);
+    color: aliceblue;
+}
+
+.postdetalle img{
+    width: 100%;
+}

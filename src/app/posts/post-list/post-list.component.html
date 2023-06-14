@@ -1,0 +1,13 @@
+<div class="posts">
+    <h2>Posts de Comidas del Peru</h2>
+    <div class="li-post">
+        <ul>
+            <li *ngFor="let x of datos">
+                <a [routerLink]="['/post', x.id]">{{ x.nombre }}</a>
+    
+            </li>
+    
+        </ul>
+    </div>
+
+</div>

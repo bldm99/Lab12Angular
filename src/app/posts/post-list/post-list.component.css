@@ -1,0 +1,41 @@
+
+.posts{
+    
+    width: 800px;
+    padding: 8px;
+    text-align: center;
+}
+
+.posts .li-post{
+    box-sizing: border-box;
+    
+}
+
+.li-post ul{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+    
+    
+}
+
+.li-post ul li{
+    list-style: none;
+    width: 100%;
+    background: wheat;
+    text-align: center;
+    padding: 8px 0px;
+    
+}
+.li-post ul li a{
+    text-decoration: none;
+    
+    padding: 4px 0px;
+    width: 100%;
+
+    
+}

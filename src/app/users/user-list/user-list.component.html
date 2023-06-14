@@ -1,0 +1,17 @@
+<div class="alluser">
+  <h1>Usuarios</h1>
+  <div class="listau">
+    <ul>
+      <li *ngFor="let user of usuarios">
+        {{user.nombre}} 
+        <button [routerLink]="['/user', user.id]">Ver detalles</button>
+      </li>
+    </ul>
+  </div>
+</div>
+  
+    
+
+
+  
+  

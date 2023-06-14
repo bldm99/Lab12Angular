@@ -1,0 +1,14 @@
+
+
+.detalles{
+    background: black;
+    padding: 0px 10px;
+    
+}
+.detalles .text{
+    color: aliceblue;
+}
+
+.detalles img{
+    width: 100%;
+}
